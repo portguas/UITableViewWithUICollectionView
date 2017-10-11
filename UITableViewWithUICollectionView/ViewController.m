@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 #import "MyTableViewCell.h"
-
+#import "NextViewController.h"
 static NSString * const kTableviewCell = @"MyTableViewCell";
 @interface ViewController ()
 

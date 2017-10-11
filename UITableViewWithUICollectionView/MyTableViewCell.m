@@ -49,9 +49,10 @@ static NSString * const kCollectionViewCell = @"CollectionViewCell";
         [self.myCollectionView autoPinEdge:ALEdgeTop toEdge:ALEdgeTop ofView:self.contentView];
         [self.myCollectionView autoPinEdge:ALEdgeLeft toEdge:ALEdgeLeft ofView:self.contentView withOffset:10];
         
+        [self.myCollectionView autoSetDimension:ALDimensionWidth toSize:[UIScreen mainScreen].bounds.size.width];
+        [self.myCollectionView autoSetDimension:ALDimensionHeight toSize:200];
         [self.myCollectionView autoPinEdge:ALEdgeBottom toEdge:ALEdgeBottom ofView:self.contentView];
         [self.myCollectionView autoPinEdge:ALEdgeRight toEdge:ALEdgeRight ofView:self.contentView withOffset:-10];
-        
         
     }
     
